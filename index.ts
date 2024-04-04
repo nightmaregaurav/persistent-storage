@@ -1,4 +1,4 @@
-import {StorageDescriptor, TStorageType} from "./index.types.ts";
+import {StorageDescriptor, TStorageType} from "./index.types";
 import React, {useEffect} from "react";
 import { useAtom } from "jotai";
 
@@ -60,4 +60,4 @@ export const usePersistentStorage = <T>(storageDescriptor: StorageDescriptor<T>)
     const removeValue = () => removeFromPersistentStorage(storageDescriptor.preferredStorage, storageDescriptor.key);
     return [value, setValue, removeValue];
 }
- export {StorageDescriptor, TStorageType} from "./index.types.ts";
+ export {StorageDescriptor, TStorageType} from "./index.types";
