@@ -1,0 +1,33 @@
+{
+  "name": "@nightmaregaurav/persistent-storage",
+  "version": "0.0.1",
+  "description": "Persistent storage is a library that allows you to store hook's state in local storage or session storage so that the latest state is available even after the page is refreshed.",
+  "scripts": {
+    "compile": "tsc",
+    "clean": "rm -f *.js && rm -f *.d.ts && rm -f *.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightmaregaurav/persistent-storage.git"
+  },
+  "keywords": [
+    "persistence",
+    "persistent",
+    "persistent-storage",
+    "react-persistent-storage",
+    "react-persistent-hooks"
+  ],
+  "author": "nightmaregaurav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nightmaregaurav/persistent-storage/issues"
+  },
+  "homepage": "https://github.com/nightmaregaurav/persistent-storage#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "jotai": "^2.7.2"
+  }
+}
